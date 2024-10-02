@@ -1,0 +1,25 @@
+.vue-apexcharts .apexcharts-svg {
+    background-color: transparent !important;
+}
+
+.apexcharts-tooltip {
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.18) !important;
+}
+
+.apexcharts-tooltip-custom {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgb(var(--v-theme-dashboard-widget-text2));
+    font-size: 12px;
+    line-height: 14px;
+    background:rgb(var(--v-theme-dashboard-widget-bg));
+}
+
+.apexcharts-tooltip-custom-title {}
+
+.apexcharts-tooltip-custom-item {
+    display: flex;
+    gap: 8px;
+}

@@ -1,0 +1,65 @@
+@import './css/formkit.css';
+@import './css/tabs.css';
+@import './css/layout.css';
+@import './css/buttons.css';
+@import './css/fonts.css';
+@import './css/menu.css';
+@import './css/table.css';
+@import './css/sidebar.css';
+@import './css/dashboard.css';
+@import './css/badge.css';
+@import './css/apexChart.css';
+@import './css/header.css';
+@import './css/message.css';
+@import './css/breadcrumbs.css';
+@import './css/datePicker.css';
+@import './css/login.css';
+
+*,
+*::before,
+*::after {
+    margin: 0;
+}
+
+html {
+    overflow: auto;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 14px;
+    font-family: 'Exo 2', Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+}
+
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+.theme-transition {
+    transition-property: background-color, border-color, box-shadow;
+    transition-duration: 0.28s;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+
+/* SCROLLBAR */
+.scrollbar::-webkit-scrollbar {
+    width: 6px;
+}
+.scrollbar::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgb(var(--v-theme-scrollbar));
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+
+

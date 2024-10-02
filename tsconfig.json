@@ -1,0 +1,31 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": [
+    "src/types/env.d.ts", "src/**/*.vue", "src/**/*"],
+  "compilerOptions": {
+    "lib": ["ES2022", "dom"],
+    "noImplicitThis": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@icons/*": ["./src/components/icons/*"],
+      "@helpers": ["./src/helpers/index.ts"],
+      "@helpers/*": ["./src/helpers/*"],
+      "@api": ["./src/api/index.ts"],
+      "@api/*": ["./src/api/*"]
+    }
+  },
+
+  "references": [
+    {
+      "path": "./tsconfig.config.json"
+    }
+  ]
+}

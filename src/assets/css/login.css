@@ -1,0 +1,33 @@
+.loginForm_card {
+    padding: 34px 20px;
+    background-color: #111822;
+    border-radius: 10px;
+    width: 260px;
+    height: fit-content;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.loginForm_logo {
+    margin-bottom: 26px;
+}
+
+.loginForm_card .formkit-outer {
+    margin-bottom: 16px;
+}
+
+.loginForm_card .formkit-outer input {
+    background-color: #0F141D;
+    border: 1px solid #6C757D;
+    font-size: 14px;
+    line-height: 17px;
+    height: 37px;
+    border-radius: 5px;
+}
+.loginForm_card .formkit-outer input::placeholder {
+    color: #6C757D;
+}

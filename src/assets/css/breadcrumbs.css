@@ -1,0 +1,18 @@
+.breadcrumbs {
+    margin-bottom: 16px;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: rgb(var(--v-theme-breadcrumbs));
+}
+
+.breadcrumbs a:not(:first-child):before {
+    content: '/';
+    padding: 4px;
+}
+
+.breadcrumbs a._active {
+    color: rgb(var(--v-theme-breadcrumbs-active));
+    pointer-events: none;
+}

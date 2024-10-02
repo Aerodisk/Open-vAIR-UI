@@ -1,0 +1,93 @@
+/* HEADER */
+.header {
+    padding: 14px 16px;
+    background-color: rgb(var(--v-theme-bg-header));
+    display: flex;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 2px 2px rgba(var(--v-theme-layout-shadows)), inset 0 -1px 0 rgba(var(--v-theme-layout-borders));
+    z-index: 3;
+}
+.header_logo svg {
+    height: 34px;
+    transition: all .28s;
+}
+.header_logo a {
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
+.header > div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.header > div:not(:last-child) {
+    margin-right: 16px;
+    padding-right: 16px;
+    border-right: 1px solid rgb(var(--v-theme-header-divider));
+}
+
+/* HEADER MENU */
+.header_menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 32px;
+}
+.header_card {
+    background-color: rgb(var(--v-theme-header-menu-bg));
+    border: 1px solid rgb(var(--v-theme-header-menu-border));
+    padding: 8px 16px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    min-width: 400px;
+    max-width: 800px;
+    overflow: auto;
+    max-height: 400px;
+}
+.header_card_title, .header_card_subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: rgb(var(--v-theme-header-menu-title));
+    margin-bottom: 8px;
+}
+.header_card_subtitle {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* HEADER SEARCH */
+.header_search {
+    position: relative;
+    width: 210px;
+    display: flex;
+    align-items: center;
+}
+.header_search input {
+    font-size: 12px;
+    line-height: 20px;
+    width: 100%;
+    outline: none;
+    color: rgb(var(--v-theme-header-text));
+}
+.header_search input::placeholder {
+    color: rgb(var(--v-theme-header-text));
+    opacity: 0.8;
+}
+.header_search label {
+    display: flex;
+    align-items: center;
+}
+.header_search_menu .v-list-item__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+.header_search_menu .v-list-item__content .v-list-item-subtitle {
+    font-size: 12px;
+}

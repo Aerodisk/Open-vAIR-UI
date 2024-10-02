@@ -1,0 +1,39 @@
+.v-menu .v-overlay__content>.v-list {
+    background: rgb(var(--v-theme-menu-background));
+    border-radius: 5px;
+}
+.v-menu .v-overlay__content>.v-list .v-list-item {
+    color: rgb(var(--v-theme-menu-text));
+    height: 22px;
+    min-height: 22px;
+    padding: 1px 8px;
+    user-select: none;
+    transition: background-color .28s, opacity .28s;
+}
+.v-menu .v-list .v-list-item-title {
+    font-size: 14px;
+    line-height: 20px;
+}
+.v-menu .v-overlay__content>.v-list .v-list-item:hover {
+    opacity: 0.8;
+}
+.v-menu .v-overlay__content>.v-list .v-list-item  .v-ripple__container {
+    color: rgb(var(--v-theme-form-select-item-bg));
+}
+.v-menu .v-list .v-list-item__content {
+    z-index: 1;
+}
+.v-menu .v-overlay__content .v-list-item  > .v-list-item__overlay,
+.v-menu .v-overlay__content .v-list-item:hover > .v-list-item__overlay {
+    opacity: 0 !important;
+}
+.v-menu .v-overlay__content .v-list .v-list-item  .v-ripple__container,
+.v-menu .v-overlay__content .v-list .v-list-item .v-ripple__animation {
+    opacity: 1;
+}
+
+.v-tooltip .v-overlay__content {
+    white-space: pre-line;
+    font-size: 12px;
+    line-height: 14px;
+}

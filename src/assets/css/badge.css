@@ -1,0 +1,50 @@
+.badge_wrapper {
+    position: relative;
+}
+
+.badge_wrapper.badge_top .badge {
+    top: -8px;
+}
+.badge_wrapper.badge_bottom .badge {
+    bottom: -8px;
+}
+.badge_wrapper.badge_left .badge {
+    left: -8px;
+}
+.badge_wrapper.badge_right .badge {
+    right: -8px;
+}
+
+.badge_wrapper.badge_red .badge {
+    background-color: rgb(var(--v-theme-red));
+}
+.badge_wrapper.badge_warn .badge {
+    background-color: rgb(var(--v-theme-warn));
+}
+.badge_wrapper.badge_primary .badge {
+    background-color: rgb(var(--v-theme-primary));
+}
+.badge_wrapper.badge_green .badge {
+    background-color: rgb(var(--v-theme-green));
+}
+
+.badge {
+    position: absolute;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    height: 20px;
+    text-align: center;
+    min-width: 20px;
+    padding: 0 6.5px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgb(var(--v-theme-red));
+    z-index: 1;
+}
+
+/* Vuetify badge */
+.v-badge .v-badge__badge {
+    font-size: 12px;
+    font-weight: 700;
+}

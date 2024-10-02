@@ -1,0 +1,5 @@
+export * from './VMCardCpuRamTab'
+export * from './VMCardDisksTab'
+export * from './VMCardImagesTab'
+export * from './VMCardMainTab'
+export * from './VMCardNetworksTab'

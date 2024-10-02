@@ -1,0 +1,6 @@
+export { default as VMListView } from './VMListView.vue'
+export { default as VirtualNetworksView } from './VirtualNetworksView.vue'
+export * from './VMCreateView'
+export * from './VMEditView'
+export * from './VMView'
+export * from './VirtualNetworkView'

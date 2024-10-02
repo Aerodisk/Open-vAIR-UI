@@ -1,0 +1,5 @@
+export enum MonitoringActionTypes {
+  // EVENT
+  GET_EVENT_LIST = 'MONITORING_GET_EVENT_LIST',
+  DOWNLOAD_LOG = 'MONITORING_DOWNLOAD_LOG',
+}
